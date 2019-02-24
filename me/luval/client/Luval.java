@@ -40,6 +40,7 @@ public enum Luval {
 		logger = new Logger();
 		EVENT_MANAGER = new EventManager();
 		MODULE_MANAGER = new ModuleManager();
+		SETTING_MANAGER = new SettingManager();
 		
 		Logger.finishingClient();
 	}
